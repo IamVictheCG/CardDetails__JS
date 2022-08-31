@@ -1,0 +1,236 @@
+body {
+  display: flex;
+  margin: 0%;
+  height: 613px;
+  border: 2px saddlebrown solid;
+}
+body .left-block {
+  height: 613px;
+  width: 360px;
+  background: linear-gradient(to top, #07b8c5 40%, #6f73e2 60%);
+}
+body .card-frontside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: linear-gradient(to top, #064ba7 40%, #b3066e 60%);
+  border: #07b8c5 0px solid;
+  border-radius: 19px;
+  width: 438px;
+  height: 250px;
+  position: relative;
+  top: 44px;
+  right: 303px;
+}
+body .card-frontside .rounds {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-end;
+  border: 0px solid saddlebrown;
+  width: 100px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-left: 20px;
+}
+body .card-frontside .rounds .Biground {
+  margin-top: 15px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: white;
+}
+body .card-frontside .rounds .Smallround {
+  margin-top: 25.5px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 2px solid rgb(255, 255, 255);
+}
+body .card-frontside .cardnum {
+  letter-spacing: 3px;
+  border: white 0px solid;
+  height: 57px;
+  margin-top: auto;
+}
+body .card-frontside .cardnum #cardNum {
+  font-size: 33px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border: white 0px solid;
+  margin: auto;
+  margin-top: 8px;
+}
+body .card-frontside .namedate {
+  display: flex;
+  justify-content: space-between;
+  border: 0px solid saddlebrown;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+body .card-frontside .namedate .name {
+  font-size: 16px;
+  font-weight: 800;
+}
+body .card-frontside .namedate .expiry {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-end;
+  border: 0px solid saddlebrown;
+  width: 40px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-size: 16px;
+  font-weight: 800;
+}
+body .inputsz {
+  padding: 12px;
+  border: #1dfdc2 0px solid;
+  width: 350px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: relative;
+  top: 222px;
+}
+body .inputsz .inp-holder {
+  font-size: 24px;
+  width: 85%;
+  height: 30px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+body .inputsz .inp-number {
+  font-size: 24px;
+  width: 85%;
+  height: 30px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+body .inputsz .combo {
+  display: flex;
+  border: rgb(237, 229, 7) 0px solid;
+  justify-content: space-between;
+}
+body .inputsz .combo .EXP {
+  font-size: 17px;
+}
+body .inputsz .combo .EXP-date1 {
+  display: flex;
+  border: #07b8c5 0px solid;
+  width: 130px;
+  height: 44px;
+  justify-content: space-around;
+}
+body .inputsz .combo .exps1 {
+  border: #f0610e 0px solid;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 50px;
+}
+body .inputsz .combo .inp-month {
+  font-size: 24px;
+  width: 82%;
+  height: 30px;
+  border-radius: 8px;
+}
+body .inputsz .combo .inp-year {
+  font-size: 24px;
+  margin-left: 4px;
+  width: 82%;
+  height: 30px;
+  border-radius: 8px;
+}
+body .inputsz .combo .CVV-form {
+  border: fuchsia 0px solid solid;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+body .inputsz .combo .inp-cvv {
+  font-size: 24px;
+  width: 100px;
+  height: 30px;
+  border-radius: 8px;
+}
+body .inputsz .Confirm {
+  border: #064ba7 solid 0px;
+  border-radius: 8px;
+  height: 40px;
+  margin-top: 24px;
+  background-color: #a70677;
+}
+body .inputsz .Confirm p {
+  border: #a70677 solid 0px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: auto;
+  position: relative;
+  top: 8px;
+  font-size: 19px;
+  font-weight: 500;
+}
+body .card-backside {
+  background-color: rgb(230, 230, 230);
+  border: 0px lightcoral solid;
+  border-radius: 19px;
+  height: 250px;
+  width: 438px;
+  position: absolute;
+  right: 682px;
+  top: 334px;
+}
+body .card-backside .BlackBox {
+  border: 0px rgb(5, 219, 130) solid;
+  background-color: black;
+  height: 45px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+body .card-backside .CVVBig {
+  border: 0px rgb(5, 219, 130) solid;
+  height: 43px;
+  background-color: rgb(110, 110, 110);
+  margin-bottom: 18px;
+}
+body .card-backside .CVVBig .CVVSmall {
+  display: flex;
+  justify-content: flex-end;
+  border: 0px rgb(25, 62, 47) solid;
+  height: 39px;
+}
+body .card-backside .CVVBig .CVVSmall p {
+  color: aliceblue;
+  margin-right: 20px;
+  margin-bottom: 8px;
+}
+body .card-backside .text {
+  display: flex;
+  justify-content: space-around;
+  color: rgb(110, 110, 110);
+  border: 0px rgb(25, 62, 47) solid;
+}
+body .NewVal {
+  color: #b3066e;
+}
+body .valid {
+  font-size: 24px;
+  outline-color: green;
+  width: 85%;
+  height: 30px;
+  border-radius: 8px;
+}
+body .invalid {
+  font-size: 24px;
+  outline-color: rgb(255, 136, 0);
+  width: 85%;
+  height: 30px;
+  border-radius: 8px;
+}/*# sourceMappingURL=CardDetails.css.map */

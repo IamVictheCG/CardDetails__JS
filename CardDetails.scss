@@ -1,0 +1,282 @@
+body {
+    display: flex;
+    margin: 0%;
+    height:613px;
+    border: 2px saddlebrown solid;
+    
+    .left-block {
+        height: 613px;
+        width: 360px;
+        background: linear-gradient(to top, #07b8c5 40%, #6f73e2 60% );
+        // background: #07b8c5;
+    }
+    
+    .card-frontside{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background: linear-gradient(to top, #064ba7 40%, #b3066e 60% );
+        border: #07b8c5 0px solid;
+        border-radius: 19px;
+        width: 438px;
+        height: 250px;
+        position: relative;
+        top: 44px;
+        right: 303px;
+        // margin-top: 60px;
+        
+        .rounds {
+            display: flex;
+            justify-content: space-between;
+            align-content: flex-end;
+            border: 0px solid saddlebrown;
+            width: 100px;
+            height: fit-content;
+            margin-left: 20px;
+
+            
+            .Biground {
+                margin-top: 15px;
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                background: white;
+            }
+            .Smallround {
+                margin-top: 25.5px;
+                width: 25px;
+                height: 25px;
+                border-radius: 50%;
+                border: 2px solid rgb(255, 255, 255);
+            }
+        }
+        
+        .cardnum{
+            letter-spacing: 3px;
+            border: white 0px solid;
+            height: 57px;
+            margin-top: auto;
+            
+            #cardNum {
+                font-size: 33px;
+                width: fit-content;
+                border: white 0px solid;
+                margin: auto;
+                margin-top: 8px;
+            }
+            
+        }
+        
+        .namedate {
+            display: flex;
+            justify-content: space-between;
+            border: 0px solid saddlebrown;
+            padding-left:7px;
+            padding-right: 7px;
+
+
+            .name {
+                // color: rebeccapurple;
+                font-size: 16px;
+                font-weight: 800;
+            }
+    
+            .expiry {
+                display: flex;
+                justify-content: space-between;
+                align-content: flex-end;
+                border: 0px solid saddlebrown;
+                width: 40px;
+                height: fit-content;
+                font-size: 16px;
+                font-weight: 800;
+            }
+        }
+        
+
+        
+
+    }
+    
+    .inputsz {
+        padding: 12px;
+        border: #1dfdc2 0px solid;
+        width: 350px;
+        // height: 220px;
+        height: fit-content;
+        position: relative;
+        top: 222px;
+        
+
+
+        .inp-holder {
+            font-size: 24px;
+            width: 85%;
+            height: 30px;
+            border-radius: 8px;
+            margin-bottom: 24px;
+        }
+
+        .inp-number {
+            font-size: 24px;
+            width: 85%;
+            height: 30px;
+            border-radius: 8px;
+            margin-bottom: 24px;
+            // outline: none;
+        }
+        
+
+
+        .combo {
+            display: flex;
+            border: rgb(237, 229, 7) 0px solid;
+            justify-content: space-between;
+
+            .EXP {
+                font-size: 17px;
+            }
+    
+            .EXP-date1 {
+                display: flex;
+                // justify-content: space-between;
+                border: #07b8c5 0px solid;
+                width: 130px;
+                height: 44px;
+                justify-content: space-around;
+            }
+
+            .exps1 {
+                border: #f0610e 0px solid;
+                height: fit-content;
+                width: 50px;                
+            }
+            .inp-month {
+                font-size: 24px;
+                width: 82%;
+                height: 30px;
+                border-radius: 8px;
+            }
+    
+            .inp-year {
+                font-size: 24px;
+                margin-left: 4px;
+                width: 82%;
+                height: 30px;
+                border-radius: 8px;
+            }
+    
+            .CVV-form {
+                border: fuchsia 0px solid
+                solid;
+                width: fit-content;
+                // margin-left: 33px;
+                // position: relative;left: 220px;
+    
+            }
+    
+            .inp-cvv {
+                font-size: 24px;
+                width: 100px;
+                height: 30px;
+                border-radius: 8px;
+            }
+        }
+
+        .Confirm {
+            border: #064ba7 solid 0px;
+            border-radius: 8px;
+            height: 40px;
+            margin-top: 24px;
+            background-color: #a70677;
+            // padding-top:10px ;
+            
+            p {
+                border: #a70677 solid 0px;
+                width: fit-content;
+                height: fit-content;
+                margin: auto;
+                position: relative;
+                top: 8px;
+                font-size: 19px;
+                font-weight: 500;
+                
+            }
+        }
+
+    }
+
+    .card-backside {
+        background-color: rgb(230, 230, 230);
+        border: 0px lightcoral solid;
+        border-radius: 19px;
+        height: 250px;
+        width: 438px;
+        position: absolute;
+        right: 682px;
+        top: 334px;
+
+        .BlackBox {
+            border: 0px rgb(5, 219, 130) solid;
+            background-color: black;
+            height: 45px;
+            margin-top: 18px;
+            margin-bottom: 18px;
+            // width: 438px;
+        }
+        
+        .CVVBig {
+            border: 0px rgb(5, 219, 130) solid;
+            height: 43px;
+            background-color: rgb(110, 110, 110);
+            margin-bottom: 18px;
+            
+            .CVVSmall {
+                display: flex;
+                justify-content: flex-end;
+                border: 0px rgb(25, 62, 47) solid;
+                height: 39px;
+                
+                p {
+                    color: aliceblue;
+                    margin-right: 20px;
+                    margin-bottom: 8px;
+                }
+                
+            }
+            
+        }
+        
+        .text {
+            display: flex;
+            justify-content: space-around;
+            color: rgb(110, 110, 110);
+            border: 0px rgb(25, 62, 47) solid;
+
+        }
+    }
+
+    .NewVal {
+        color: #b3066e;
+    }
+
+
+
+    .valid {
+        font-size: 24px;
+        outline-color: green;
+        width: 85%;
+        height: 30px;
+        border-radius: 8px;
+
+    }
+
+    .invalid {
+        font-size: 24px;
+        outline-color: rgb(255, 136, 0);
+        width: 85%;
+        height: 30px;
+        border-radius: 8px;
+    }
+
+}

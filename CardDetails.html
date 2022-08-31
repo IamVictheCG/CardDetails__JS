@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CardDetails.css">
+</head>
+<body>
+
+    <div class="left-block">
+        
+    </div>
+   
+
+    <div class="card-frontside">
+
+        <div class="rounds">
+            <div class="Biground"></div>
+            <div class="Smallround"></div>
+        </div>
+        <div class="cardnum">
+            <h2 id="cardNum">0000 0000 0000 0000</h2>
+        </div>
+
+        <div class="namedate">
+            <p id="cardname" class="name">ABIMBOLA ABOLARINWA</p>
+            <div class="expiry">
+                <p id="cardM" class="date">09</p>
+                <p>/</p>
+                <p id="cardY" class="date">00</p>
+            </div>
+        </div>
+        
+
+    </div>
+
+    <div class="inputsz">
+        <div class="name-form">
+            <label for="card-holder">Card Holder</label><br>
+            <input onchange="cardHolder()" id="inp-holder" class="inp-holder" name="cardHolder" maxlength="40" type="text" placeholder="First Name & Surname Name">
+        </div>
+
+        <div class="card-number-form">
+            <label for="card-number">Card Number</label><br>
+            <input onchange="cardnum()" id="inp-number" class="inp-number" name="inpNumber" minlength="5" maxlength="16" type="text" placeholder="0000 0000 0000 0000">
+        </div>
+
+        
+        <div class="combo">
+
+            <div>
+                <label class="EXP" for="EXP-Date">Expiry Date (MM / YY)</label>
+            
+                <div class="EXP-date1">
+                    <div class=" exps1">
+                        <input onchange="Month()" id="inp-month" class="inp-month" maxlength="2" name="Month" type="text" placeholder="MM">
+                    </div>
+
+                    <div class="exps1">
+                        <input onchange="Year()" id="inp-year" class="inp-year" maxlength="2" name="Year" type="email" placeholder="YY">
+                    </div>
+                    
+                 </div>
+            </div>
+
+            
+
+            <div class="CVV-form">
+                <label for="cvv">CVV</label><br>
+                <input onchange="CVV()" class="inp-cvv" type="text" maxlength="3" name="CVV" id="inp-cvv" placeholder="CVV">
+            </div>
+
+            <div class="errors">
+
+            </div>
+            <!-- <p>Can't be black</p> -->
+        </div>
+
+        <div class="Confirm"><p>Confirm</p></div>
+        
+    </div>
+
+    <div class="card-backside">
+
+        <div class="BlackBox">
+
+        </div>
+
+        <div class="CVVBig">
+
+            <div class="CVVSmall">
+                <p id="cardCVV">000</p>
+            </div>
+            
+        </div>
+
+        <div class="text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Placeat enim optio recusandae nihil odit at <br>sequi numquam, labore dolore .</p>
+        </div>
+        
+    </div>
+
+
+
+    <script src="CardDetails.js"></script>
+</body>
+</html>
